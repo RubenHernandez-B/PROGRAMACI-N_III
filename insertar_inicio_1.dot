@@ -1,0 +1,8 @@
+digraph G {
+rankdir=LR;
+node [shape=record];
+n0 [label="<ant> | DANIEL\nGONZALEZ\n200 | <sig>"];
+n1 [label="<ant> | RUBEN\nHERNANDEZ\n100 | <sig>"];
+n0:sig -> n1:ant;
+n1:ant -> n0:sig;
+}
